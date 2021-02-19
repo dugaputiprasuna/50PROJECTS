@@ -1,22 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Monteserrat:400,600&display=swap');
 * {
-    box-sizing: border-box;
+   box-sizing: border-box;
 }
-    :root {
-        --border-color: #144fc6;
-        --background-fill-color: #6ab3f8;
-    }
-
+   :root {
+       --border-color: #144fc6;
+       --background-fill-color: #6ab3f8;
+   }
+ 
 body {
-    font-family: 'Roboto' , sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 100vh;
-    overflow: hidden;
-    margin: 40px;
-    background-color: cornflowerblue;
-    color: #fff;
+   font-family: 'Roboto' , sans-serif;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   height: 100vh;
+   overflow: hidden;
+   margin: 40px;
+   background-color: cornflowerblue;
+   color: #fff;
 }
 h1 {
 color: #fff;
@@ -24,75 +24,73 @@ font-weight: 500;
 margin: 10px 0 0;
 }
 h3 {
-    color: #fff;
-    font-weight: 500;
-    margin: 10px 0;
+   color: #fff;
+   font-weight: 500;
+   margin: 10px 0;
 }
 .cup {
-    height: 230px;
-    width: 130px;
-  
+   height: 230px;
+   width: 130px;
     border: 2px solid var(--border-color);
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    border-bottom-left-radius: 2rem;
-    border-bottom-right-radius: 2rem;
-    color: var(--border-color);
-    margin: 30px 0;
-    background-color: rgba(255, 255, 255, 0.9);
+   display: flex;
+   flex-direction: column;
+   overflow: hidden;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   border-bottom-left-radius: 2rem;
+   border-bottom-right-radius: 2rem;
+   color: var(--border-color);
+   margin: 30px 0;
+   background-color: rgba(255, 255, 255, 0.9);
 }
 .cup.cup-small {
-    height: 90px;
-    width: 50px;
-    cursor: pointer;
-    font-size: 14px;
-     margin: 5px;
-    transition: 0.3s ease;
-
+   height: 90px;
+   width: 50px;
+   cursor: pointer;
+   font-size: 14px;
+    margin: 5px;
+   transition: 0.3s ease;
+ 
 }
 .cup.cup-small.full {
 background-color: var(--background-fill-color);
 color: #fff;
 }
 .cups {
-    display: flex;
-    flex-wrap: wrap;
-    width: 240px;
+   display: flex;
+   flex-wrap: wrap;
+   width: 240px;
 }
 .remained {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex: 1;
-    transition: 0.3s ease;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   flex: 1;
+   transition: 0.3s ease;
 }
 #id {
-    font-size: 20px;
-    font-weight: bold;
+   font-size: 20px;
+   font-weight: bold;
 }
 .remained small {
-    font-size: 12px;
+   font-size: 12px;
 }
 .percentage {
-    background-color: var(--background-fill-color);
-    display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: bold;
-  font-size: 15px;
-  height: 0;
-  transition: 0.3s ease;
-  width: 100%;
-  color: #fff
-  
-}
+   background-color: var(--background-fill-color);
+   display: flex;
+ align-items: center;
+ justify-content: center;
+ font-weight: bold;
+ font-size: 15px;
+ height: 0;
+ transition: 0.3s ease;
+ width: 100%;
+ color: #fff
+ }
 .text {
-    text-align: center;
-    margin: 0 0 5px;
-  }
+   text-align: center;
+   margin: 0 0 5px;
+ }
